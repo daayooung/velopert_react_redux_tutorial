@@ -1,6 +1,6 @@
 import React from 'react';
-import CounterContainer from './containers/CounterContaner';
-import Todos from './components/Todos';
+import CounterContainer from './containers/CounterContainer';
+import TodosContainer from './containers/TodosContainer';
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <br />
       <hr />
       <br />
-      <Todos />
+      <TodosContainer />
     </div>
   );
 };
